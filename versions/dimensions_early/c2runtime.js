@@ -52950,25 +52950,3 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.lunarray_LiteTween.prototype.acts.ProgressTo,
 	cr.plugins_.Sprite.prototype.acts.SetEffect
 ];};
-
-
-}
-/*
-     FILE ARCHIVED ON 17:32:37 Jun 01, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 13:14:23 Feb 21, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots: 0.114
-  exclusion.robots.policy: 0.103
-  cdx.remote: 0.122
-  esindex: 0.011
-  LoadShardBlock: 307.398 (6)
-  PetaboxLoader3.datanode: 295.825 (7)
-  load_resource: 196.972
-  PetaboxLoader3.resolve: 73.892
-*/
