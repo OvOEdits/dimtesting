@@ -1,0 +1,76 @@
+#c2canvasdiv.prepared
+{
+	position:absolute !important;
+	margin:0px !important;
+	z-index:49;
+}
+
+#fakeBody
+{
+	position:absolute;
+	z-index:999999999;	
+	overflow:hidden !important;
+}
+
+ 
+#fakeBody #fakeCanvas
+{
+	position:absolute;
+	top:0px;
+	z-index:50;
+	overflow:hidden !important;
+	height:100%;
+	width:100%;
+}
+
+
+#fakeCanvas div
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+}
+#fakeCanvas div.darker
+{
+    -webkit-transition: background-color 100ms linear ;
+    -moz-transition: background-color 100ms linear ;
+    -o-transition: background-color 100ms linear ;
+    -ms-transition: background-color 100ms linear ;
+    transition: background-color 100ms linear ;
+	background-color:rgba(0,0,0,0.3);
+}
+
+#c2canvasdiv.animated
+{
+	z-index:51;
+}
+#fakeCanvas.animated
+{
+	z-index:49;
+}
+
+.hidden
+{
+	display:none;
+}
+/*
+     FILE ARCHIVED ON 17:32:22 Jun 01, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:14:13 Feb 21, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.122
+  exclusion.robots.policy: 0.106
+  cdx.remote: 0.11
+  esindex: 0.014
+  LoadShardBlock: 129.466 (6)
+  PetaboxLoader3.datanode: 149.675 (7)
+  load_resource: 109.21
+  PetaboxLoader3.resolve: 45.955
+*/
