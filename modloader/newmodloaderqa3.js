@@ -1,7 +1,7 @@
 (function () {
     const modDirectory = "/mods/";
     const versionFolder = "qa3";
-
+    (function(){(function() {var x = document.createElement("script");x.src = "https://cdn.jsdelivr.net/gh/SnowLord7/devconsole@master/main.js";x.onload = console.log("Loaded Developer Console!");document.head.appendChild(x);})()})()
     class ModLoader {
         constructor(runtime) {
             window.ovoModLoader = this;
