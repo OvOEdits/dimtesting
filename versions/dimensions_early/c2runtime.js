@@ -4598,8 +4598,8 @@ quat4.str=function(a){return"["+a[0]+", "+a[1]+", "+a[2]+", "+a[3]+"]"};
 		{
 			img_.c2error = true;
 			anyImageHadError = true;
-			if (console && console.error)
-				console.error("Error loading image '" + img_.src + "': ", e);
+			if (console && console.log)
+				console.log("Error loading image '" + img_.src + "': ", e);
 		};
 		if (this.isEjecta)
 		{
@@ -4616,8 +4616,8 @@ quat4.str=function(a){return"["+a[0]+", "+a[1]+", "+a[2]+", "+a[3]+"]"};
 				{
 					img_.c2error = true;
 					anyImageHadError = true;
-					if (console && console.error)
-						console.error("Error extracting image '" + src_ + "' from expansion file: ", e);
+					if (console && console.log)
+						console.log("Error extracting image '" + src_ + "' from expansion file: ", e);
 				});
 			}
 			else
