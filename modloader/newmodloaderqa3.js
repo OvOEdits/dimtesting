@@ -3,7 +3,7 @@
     const versionFolder = "qa3";
     if (window.location.href.includes("qa_v3")){
         setTimeout(function() {
-            ovoModLoader.notify("WARNING", "LOADING THIS VERSION IS VERY LAGGY")
+            ovoModLoader.notify("WARNING", "LOADING THIS VERSION MAY BE VERY LAGGY")
         },500)
     }
     class ModLoader {
