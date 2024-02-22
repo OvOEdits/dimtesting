@@ -1,7 +1,11 @@
 (function () {
     const modDirectory = "/mods/";
     const versionFolder = "qa3";
-    //(function(){(function() {var x = document.createElement("script");x.src = "https://cdn.jsdelivr.net/gh/SnowLord7/devconsole@master/main.js";x.onload = console.log("Loaded Developer Console!");document.head.appendChild(x);})()})()
+    if (window.location.href.includes("qa_v3")){
+        setTimeout(function() {
+            ovoModLoader.notify("WARNING", "LOADING THIS VERSION IS VERY LAGGY")
+        },500)
+    }
     class ModLoader {
         constructor(runtime) {
             window.ovoModLoader = this;
