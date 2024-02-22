@@ -47690,7 +47690,7 @@ cr.behaviors.aekiro_gameobject2 = function(runtime)
 			});
 		}
 		this.areChildrenRegistred = true;
-		console.log("registerChildren");
+		// console.log("registerChildren");
 	};
 	behinstProto.init = function (){
 		if(this.isInit){
