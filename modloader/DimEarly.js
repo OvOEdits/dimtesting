@@ -122,9 +122,12 @@
 
             js.onload = () => {
                 this.loadedMods.push(key);
-                /* if (notify) {
+                if (name === "inputs"){
+                    notify = false
+                }
+                if (notify) {
                     this.notify("Mod loaded", name);
-                } */
+                }
             }
 
             js.onerror = () => {
