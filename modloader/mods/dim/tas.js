@@ -4,7 +4,7 @@
     let runtime = globalThis.sdk_runtime;
     globalThis.sdk_runtime = old;
     var aaaa = runtime.groups_by_name["gameplay - timescale"].subevents[1].actions[1].parameters[0].object
-    let notify = (title, text, image = "https://ovoplant.github.io/ovo/versions/reverse/velocity.png") => {
+    let notify = (title, text, image = "./velocity.png") => {
         cr.plugins_.sirg_notifications.prototype.acts.AddSimpleNotification.call(
             runtime.types_by_index.find(
                 (type) => type.plugin instanceof cr.plugins_.sirg_notifications

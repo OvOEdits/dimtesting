@@ -15,11 +15,13 @@
         );
     };
 
-    let randomKeys = {
+    let inputs = {
         init() {
-            this.availibleKeys = []
-
-            globalThis.ovoRandomKeys = this;
-        }
+            
+            globalThis.ovoInputs = this;
+            notify("Not here.", "This is only for the earliest version.");
+        },
     }
-})();
+
+    inputs.init();
+})()
