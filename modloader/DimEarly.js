@@ -1,6 +1,6 @@
 (function () {
     const modDirectory = "/mods/";
-    const versionFolder = "qa3";
+    const versionFolder = "dimearly";
     if (window.location.href.includes("qa_v3")){
         setTimeout(function() {
             ovoModLoader.notify("WARNING", "LOADING THIS VERSION MAY BE VERY LAGGY")
@@ -19,7 +19,7 @@
         }
 
         async #init() {
-            this.mods = await fetch(this.getModDirectory() + "qa3.json").then(res => res.json());
+            this.mods = await fetch(this.getModDirectory() + "dimearly.json").then(res => res.json());
             this.loadModURL("modapi.js", true, false);
 
             window.addEventListener("keydown", (event) => {
@@ -138,7 +138,7 @@
 
         loadModURL(url, local = false, notify = true) {
             if (local) {
-                url = this.getModDirectory() + "qa3/" + url;
+                url = this.getModDirectory() + "dimearly/" + url;
             }
 
             const name = this.getURLName(url);
@@ -154,7 +154,7 @@
         }
 
         loadModJSON(key, json, notify = true) {
-            const url = this.getModDirectory() + "qa3/" + json.url;
+            const url = this.getModDirectory() + "dimearly/" + json.url;
             const name = json.name;
 
             if (this.getIsScriptLoaded(key)) {
