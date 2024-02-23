@@ -144,7 +144,7 @@
 
             js.onload = () => {
                 this.loadedMods.push(key);
-                if(name === "inputs"){
+                if(key === "inputs"){
                     notify = false
                 }
                 if (notify) {
