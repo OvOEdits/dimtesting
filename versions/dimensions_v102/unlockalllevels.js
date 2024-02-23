@@ -260,15 +260,12 @@ function dumpSave() {
   function handleAnyTouchEvent() {
     c2_callFunction("Save > Auto Update Mobile Mode");
   }
-  var el
-  setTimeout(function() {
-  el = document.getElementsByTagName("canvas")[0];
+  var el = document.getElementsByTagName("canvas")[0];
   el.addEventListener("touchstart", handleAnyTouchEvent, false);
   el.addEventListener("touchend", handleAnyTouchEvent, false);
   el.addEventListener("touchcancel", handleAnyTouchEvent, false);
   el.addEventListener("touchleave", handleAnyTouchEvent, false);
   el.addEventListener("touchmove", handleAnyTouchEvent, false);
-  },200)
 })();
 
 function isIpad() {
