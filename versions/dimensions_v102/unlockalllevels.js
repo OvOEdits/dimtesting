@@ -260,12 +260,12 @@ function dumpSave() {
   function handleAnyTouchEvent() {
     c2_callFunction("Save > Auto Update Mobile Mode");
   }
-  var el = document.getElementsByTagName("canvas")[0];
-  document.getElementsByTagName("canvas")[0].addEventListener("touchstart", handleAnyTouchEvent, false);
-  document.getElementsByTagName("canvas")[0].addEventListener("touchend", handleAnyTouchEvent, false);
-  document.getElementsByTagName("canvas")[0].addEventListener("touchcancel", handleAnyTouchEvent, false);
-  document.getElementsByTagName("canvas")[0].addEventListener("touchleave", handleAnyTouchEvent, false);
-  document.getElementsByTagName("canvas")[0].addEventListener("touchmove", handleAnyTouchEvent, false);
+  el = document.getElementsByTagName("canvas")[0];
+  el.addEventListener("touchstart", handleAnyTouchEvent, false);
+  el.addEventListener("touchend", handleAnyTouchEvent, false);
+  el.addEventListener("touchcancel", handleAnyTouchEvent, false);
+  el.addEventListener("touchleave", handleAnyTouchEvent, false);
+  el.addEventListener("touchmove", handleAnyTouchEvent, false);
 })();
 
 function isIpad() {
